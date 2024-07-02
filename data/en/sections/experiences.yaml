@@ -14,6 +14,9 @@ experiences:
     name: Activision Publishing
     url: "https://www.activision.com/"
     location: Eden Prairie, Minnesota
+    #logo: /images/sections/experiences/company1.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
     overview: Activision is the leading worldwide developer, publisher and distributor of interactive entertainment and products on consoles, mobile and PC.
   positions:

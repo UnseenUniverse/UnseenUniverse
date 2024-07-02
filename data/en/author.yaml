@@ -2,14 +2,15 @@
 name: "Tony Condon"
 nickname: "Tony"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hey, I am"
+greeting: "Hi, I am"
 image: "images/author/Tony.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "tonycondon42@gmail.com"
-  #phone: "+1 (123) 456-7890"
+  #phone: "+0123456789"
   github: UnseenUniverse
   linkedin: tonycondon42
+  #researchgate: john-doe
 
 # some summary about what you do
 summary:

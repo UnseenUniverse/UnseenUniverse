@@ -17,8 +17,7 @@ skills:
 
   - name: Linux/Unix
     logo: /images/sections/skills/linux.png
-    summary: "Most comfortable with Ubuntu Desktop & Server. Also have some experience with Red Hat Enterprise Linux
-Server, Kali Linux and, Raspberry Pi OS. Ironically I actually know Linux/Unix CLI commands better than Windows despite decades more experience with Windows OS. Mostly done various LAMP/LEMP Web Server set ups with all the tid bits that go with that."
+    summary: "Most comfortable with Ubuntu Desktop & Server. Also have some experience with Red Hat Enterprise Linux Server, Kali Linux and, Raspberry Pi OS. Ironically I actually know Linux/Unix CLI commands better than Windows despite decades more experience with Windows OS. Mostly done various LAMP/LEMP Web Server set ups with all the tid bits that go with that."
 
   - name: Git
     logo: /images/sections/skills/git.png

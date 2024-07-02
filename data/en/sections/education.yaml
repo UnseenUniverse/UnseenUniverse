@@ -23,6 +23,9 @@ degrees:
   #publications: #(optional)
   #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #url: "#"
+    #logo: /images/sections/education/tech_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
   #- title: Fusce eu augue ut odio porttitor pulvinar.
     #url: "#"
   #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
@@ -33,6 +36,9 @@ degrees:
   institution:
     name: University of Wisconsin-Stout
     url: "https://www.uwstout.edu/programs/bs-computer-science"
+    #logo: /images/sections/education/tech_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
   #grade: #(optional)
     #scale: CGPA
     #achieved: 3.5
@@ -70,6 +76,9 @@ degrees:
   institution:
     name: Dunwoody College of Technology
     url: "https://dunwoody.edu/computer/web-programming-database-development/"
+    #logo: /images/sections/education/tech_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: GPA
     achieved: 3.28
@@ -82,6 +91,9 @@ degrees:
   institution:
     name: Benilde-St. Margaret's
     url: "https://www.bsmschool.org/"
+    #logo: /images/sections/education/tech_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
   #grade: #(optional)
     #scale: GPA
     #achieved: 4.5
