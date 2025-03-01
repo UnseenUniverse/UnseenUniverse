@@ -1,6 +1,6 @@
 baseURL: https://unseenuniverse.github.io
 
-languageCode: en-us
+languageCode: en
 title: "Tony Condon's Portfolio"
 
 # Use Hugo modules to add theme
@@ -26,8 +26,12 @@ languages:
     title: "John's Blog"
     weight: 1
   bn:
+    languageCode: bn
     languageName: বাংলা
-    weight: 3
+    title: জনের ব্লগ
+    weight: 2
+# default language for the content
+defaultContentLanguage: en
 
 
 # Allow raw html in markdown file
@@ -66,7 +70,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/UnseenUniverse/UnseenUniverse
+  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -96,7 +100,8 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
+      showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -105,10 +110,10 @@ params:
         reddit: true
         whatsapp: true
         email: true
-        # tumblr: true
+        tumblr: true
         # pocket: true
         # diaspora: true
-        # mastodon: true
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
@@ -261,7 +266,11 @@ params:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
     
-        # Enable reading time support in post cards and in post pages
+    # Enables copy code button
+    copyCodeButton:
+      enable: true
+
+    # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
     
@@ -275,7 +284,7 @@ params:
     enable: true
     # You can provide your custom footer template using this option.
     # Put your template in "layouts/partials" folder of your repo.
-    #template: footer.html
+    template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
       enable: true
