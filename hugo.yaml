@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Tony Condon's Portfolio"
     weight: 1
   bn:
     languageCode: bn
