@@ -6,10 +6,10 @@
 .idea/**/projectSettingsUpdater.xml
 .idea/**/vcs.xml
 .idea/**/workspace.xml
-## track these files, if they exist ##
-!.gitignore
-!.gitmodules
 
 resources/*
 node_modules/*
 public/*
+## track these files, if they exist ##
+!.gitignore
+!.gitmodules
