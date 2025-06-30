@@ -11,6 +11,25 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Dunwoody College of Technology
+    url: "https://dunwoody.edu/"
+    location: Minneapolis, Minnesota
+    # company overview
+    overview: Dunwoody is the only private, not-for-profit technical college in the Upper Midwest
+  positions:
+  - designation: Information Technology Help Desk Technician
+    start: July 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    #end: 
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Maintain a record of all user requests in the service desk ticketing software as a tool to track calls and establish metrics. Responsible for closing service desk calls as they are completed.
+    - Provide computer and network technical support to users via ticketing system, telephone, and in-person. Assist users with a variety of technical issues dealing with various platforms, operating systems, applications, etc.
+    - Provide a moderate amount of computer training to users to ensure an efficient and successful computing experience.
+    - Setup, configure, and deploy computers and officially authorized software to users as a tool for performing their duties and responsibilities.
+    - Respond to service desk calls within level-of-service guidelines and follow-up with users, as needed. Follow-up to include duplicating complex problems, if necessary, in the lab requiring elaborate setup and working with more senior members of the support or engineering staff to resolve complex issues. Alert manager to unusual problems or problem trends as they occur.
+    - Perform maintenance tasks, including loading paper and toner, to the printer fleet.
+- company:
     name: Activision Publishing
     url: "https://www.activision.com/"
     location: Eden Prairie, Minnesota
