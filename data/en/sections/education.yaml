@@ -27,9 +27,21 @@ degrees:
     #url: "#"
   #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
     #url: "#"
+- name: B.S. Cybersecurity
+  icon: fa-university
+  timeframe: 2024-Current
+  institution:
+    name: Dunwoody College of Technology
+    url: "https://dunwoody.edu/computer/cybersecurity/"
+  #grade: #(optional)
+    #scale: GPA
+    #achieved: 3.28
+    #outOf: 4
+  extracurricularActivities: #(optional)
+  - e-Sports
 - name: B.S. Computer Science with a Concentration in Game Design and Development & Minor in Mathematics
-  icon: fa-graduation-cap
-  timeframe: 2022
+  icon: fa-university
+  timeframe: 2022-2024
   institution:
     name: University of Wisconsin-Stout
     url: "https://www.uwstout.edu/programs/bs-computer-science"
