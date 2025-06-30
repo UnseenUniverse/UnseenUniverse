@@ -92,10 +92,10 @@ badges:
   percentage: 85
   color: "#007bff"
 
-- type: soft-skill-indicator
-  name: Public Speaking
-  percentage: 80
-  color: "#6610f2"
+- type: certification
+  name: CompTIA Security+ Certification
+  url: "https://www.credly.com/badges/a946b8bb-0d6f-46e3-8ca9-9639304f053a/public_url"
+  badge: "https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob"
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
