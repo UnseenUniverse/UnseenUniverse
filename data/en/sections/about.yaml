@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Computer Science Student
+designation: Information Technology Help Desk & Cyber Security Student
 # your company information
 company:
   name: University of Wisconsin-Stout
@@ -19,7 +19,7 @@ company:
   #resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Hello! I am an extremely curious and passionate Computer Science Student with under a year of experience working in the AAA Gaming Industry. I have previously worked on [Call of Duty: Black Ops Cold War](https://www.callofduty.com/blackopscoldwar) & [Call of Duty: Warzone](https://www.callofduty.com/warzone) in a QA Functional Game Tester capacity. I learned many new and interesting skills during my time with [Activision](https://www.activision.com/) as well as sparking a real interest in actually breaking into the Video Game Industry. I am currently located in Menomonie, WI or possibly visiting back home in the Twin Cities Metro Area. For any internship opportunities I am willing to relocate for the duration of the position.'
+summary: 'Hello! I am an extremely curious and passionate Cyber Security Student with under a 2 years of experience working in Techonloy. I have previously worked on [Call of Duty: Black Ops Cold War](https://www.callofduty.com/blackopscoldwar) & [Call of Duty: Warzone](https://www.callofduty.com/warzone) in a QA Functional Game Tester capacity. I learned many new and interesting skills during my time with [Activision](https://www.activision.com/) and I am learning even more at my position at the [Dunwoody College of Technology Help Desk](https://dunwoody.edu/campus-life/campus-services/technology-it-help-desk/). I am currently located in the Twin Cities Metro Area. For any internship opportunities I am willing to relocate for the duration of the position.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
