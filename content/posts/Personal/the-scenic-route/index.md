@@ -8,7 +8,7 @@ menu:
     identifier: the-scenic-route
     parent: personal
     weight: 10
-hero: images/forest.jpg
+hero: images/pets.png
 tags:
 - Personal
 categories:
