@@ -42,7 +42,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          submodules: recursive
+          # Do not attempt recursive submodule fetch. This repo either vendors
+          # the theme under `themes/` or manages it via Hugo modules, and the
+          # current repository does not have a valid .gitmodules entry for
+          # `themes/toha` which causes checkout to fail in CI. Disabling
+          # submodules here prevents that error.
+          submodules: false
+          # fetch full history for any workflows that need it
+          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
