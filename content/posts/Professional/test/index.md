@@ -1,12 +1,12 @@
 ---
-title: "Rich Content"
+title: "Test"
 date: 2020-06-08T08:06:25+06:00
 description: Sample post with multiple images, embedded video etc.
 menu:
   sidebar:
-    name: Rich Content
-    identifier: rich-content
-    parent: sub-category
+    name: Test
+    identifier: test
+    parent: professional
     weight: 10
 hero: images/forest.jpg
 tags:
