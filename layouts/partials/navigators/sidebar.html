@@ -1,0 +1,50 @@
+{{/* Site-level override: filter menu items so only English, non-draft pages and selected sections appear */}}
+{{ $allowedSections := dict "personal" true "professional" true "technical" true }}
+{{- range .menuItems }}
+  {{ $item := . }}
+  {{ $page := .PageRef }}
+  {{/* If there is a PageRef, check language and draft status */}}
+  {{ $skip := false }}
+  {{ if $page }}
+    {{ if ne $page.Lang "en" }}{{ $skip = true }}{{ end }}
+    {{ if $page.Draft }}{{ $skip = true }}{{ end }}
+  {{ end }}
+  {{/* Determine which path segment represents the section slug.
+      Common URL shapes: /posts/section/, /posts/section/page/, /section/, etc.
+      If the first segment is 'posts', use the second segment as the section slug. */}}
+  {{ if not $skip }}
+  {{ $segs := split (strings.TrimPrefix .URL "/") "/" }}
+    {{ $candidate := "" }}
+    {{ if gt (len $segs) 0 }}
+      {{ $first := index $segs 0 }}
+      {{ if and (eq (lower $first) "posts") (gt (len $segs) 1) }}
+        {{ $candidate = index $segs 1 }}
+      {{ else }}
+        {{ $candidate = $first }}
+      {{ end }}
+    {{ end }}
+    {{ if and (gt (len $candidate) 0) (not (index $allowedSections (lower $candidate))) }}
+      {{ $skip = true }}
+    {{ end }}
+  {{ end }}
+  {{ if $skip }}
+    {{/* skip this menu item */}}
+  {{ else }}
+    {{ $class:= "" }}
+    {{ $icon:= "plus-circle" }}
+    {{ if or ($.ctx.HasMenuCurrent $.menuName $item) ($.ctx.IsMenuCurrent $.menuName $item) }}
+      {{ $icon = "minus-circle" }}
+      {{ $class = "active" }}
+    {{ end }}
+    {{ if $item.HasChildren }}
+      <li>
+        <i data-feather="{{ $icon }}"></i><a class="{{ $class }} list-link" href="{{ $item.URL }}"> {{ $item.Name }}</a>
+        <ul class="{{ $class }}">
+          {{ partial "navigators/sidebar.html" (dict "menuName" $.menuName "menuItems" $item.Children "ctx" $.ctx) }}
+        </ul>
+      </li>
+    {{ else }}
+      <li><a class="{{ $class }} list-link" href="{{ $item.PageRef | default $item.URL }}" title="{{ $item.Name }}">{{ $item.Name }}</a></li>
+    {{ end }}
+  {{ end }}
+{{- end }}

@@ -1,0 +1,18 @@
+{{ define "content" }}
+<h1>Debug Menu (single)</h1>
+<ul>
+{{ range $i, $m := site.Menus.sidebar }}
+  <li>
+    <strong>{{ $m.Name }}</strong> — URL: {{ $m.URL }} — Identifier: {{ $m.Identifier }} — HasPageRef: {{ ne $m.PageRef nil }}
+    {{ if $m.PageRef }}
+      <ul>
+        <li>Permalink: {{ $m.PageRef.Permalink }}</li>
+        <li>Lang: {{ $m.PageRef.Lang }}</li>
+        <li>Draft: {{ $m.PageRef.Draft }}</li>
+        <li>Section: {{ $m.PageRef.Section }}</li>
+      </ul>
+    {{ end }}
+  </li>
+{{ end }}
+</ul>
+{{ end }}

@@ -13,3 +13,15 @@ public/*
 ## track these files, if they exist ##
 !.gitignore
 !.gitmodules
+
+# Local Hugo binary (do not commit)
+hugo.exe
+
+# Optional: ignore local theme if you don't want to vendor it
+# Uncomment the next line if you DO NOT want to commit the themes/ folder
+# /themes/
+
+# IDE / OS extras
+.vscode/
+Thumbs.db
+.DS_Store

@@ -5,4 +5,7 @@ menu:
     name: Category
     identifier: category
     weight: 20
+draft: true
+cascade:
+  draft: true
 ---

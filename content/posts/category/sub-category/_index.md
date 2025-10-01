@@ -6,4 +6,7 @@ menu:
     identifier: sub-category
     parent: category
     weight: 10
+draft: true
+cascade:
+  draft: true
 ---

@@ -1,0 +1,21 @@
+{{ define "content" }}
+<h1>Debug: site.Menus.sidebar</h1>
+<pre>
+{{ range $i, $m := site.Menus.sidebar }}
+Index: {{ $i }}
+Name: {{ $m.Name }}
+Identifier: {{ $m.Identifier }}
+URL: {{ $m.URL }}
+HasChildren: {{ $m.HasChildren }}
+HasPageRef: {{ ne $m.PageRef nil }}
+{{ if $m.PageRef }}
+  PageRef Permalink: {{ $m.PageRef.Permalink }}
+  PageRef Lang: {{ $m.PageRef.Lang }}
+  PageRef Draft: {{ $m.PageRef.Draft }}
+  PageRef Section: {{ $m.PageRef.Section }}
+{{ end }}
+Children Count: {{ len $m.Children }}
+---
+{{ end }}
+</pre>
+{{ end }}
