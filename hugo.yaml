@@ -5,7 +5,8 @@ title: "Tony Condon's Portfolio"
 
 # Use Hugo modules to add theme
 module:
-  imports: []
+  imports:
+    - path: github.com/hugo-toha/toha/v4
 
 theme: toha
 
