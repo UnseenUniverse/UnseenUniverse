@@ -1,7 +1,7 @@
 {{/* Minimal img shortcode to satisfy theme/example content usages.
    Supports named params: src, title, height, width, align (left|right|center)
    Usage examples in content: {{< img src="/path" title="Caption" >}} */}}
-{{ $src := .Get "src" | default (index .Params 0) }}
+{{ $src := .Get "src" | default (.Get 0) }}
 {{ if not $src }}
   {{ errorf "shortcode 'img' requires a 'src' parameter" }}
 {{ end }}
