@@ -1,0 +1,17 @@
+{{/* Minimal img shortcode to satisfy theme/example content usages.
+   Supports named params: src, title, height, width, align (left|right|center)
+   Usage examples in content: {{< img src="/path" title="Caption" >}} */}}
+{{ $src := .Get "src" | default (index .Params 0) }}
+{{ if not $src }}
+  {{ errorf "shortcode 'img' requires a 'src' parameter" }}
+{{ end }}
+{{ $title := .Get "title" | default .Get "alt" }}
+{{ $height := .Get "height" }}
+{{ $width := .Get "width" }}
+{{ $align := lower (.Get "align" | default "") }}
+{{ $class := slice "shortcode-img" }}
+{{ if eq $align "center" }}{{ $class = $class | append "align-center" }}{{ else if eq $align "left" }}{{ $class = $class | append "align-left" }}{{ else if eq $align "right" }}{{ $class = $class | append "align-right" }}{{ end }}
+<figure class="{{ delimit $class " " }}">
+  <img src="{{ $src | relURL }}" {{ with $alt := $title }}alt="{{ $alt }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }} />
+  {{ with $title }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
