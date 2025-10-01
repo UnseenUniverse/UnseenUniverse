@@ -1,6 +1,6 @@
 ---
 title: "The Scenic Route Into Cybersecurity (and Why I Wouldn’t Trade It)"
-date: 2020-06-08T08:06:25+06:00
+date: 2025-10-01
 description: intro post
 menu:
   sidebar:
@@ -8,12 +8,14 @@ menu:
     identifier: the-scenic-route
     parent: personal
     weight: 10
-#hero: images/forest.jpg
+hero: images/forest.jpg
 tags:
 - Personal
 categories:
 - Basic
 ---
+
+## Childhood Veterinary Dreams
 
 When I was a kid, I never wavered: I was going to be a veterinarian. I watched _Emergency Vets_ religiously, and unlike most kids, I didn’t flinch at the uncensored surgeries. I leaned in. The blood, the organs, the stitches. I found it all fascinating.
 
