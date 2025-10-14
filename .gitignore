@@ -10,6 +10,7 @@
 resources/*
 node_modules/*
 public/*
+.vscode/
 ## track these files, if they exist ##
 !.gitignore
 !.gitmodules
