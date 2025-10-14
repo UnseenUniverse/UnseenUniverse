@@ -41,7 +41,7 @@ jobs:
         site_name: "toha"
         max_timeout: 300
       env:
-        NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+        NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@v12.0.1
