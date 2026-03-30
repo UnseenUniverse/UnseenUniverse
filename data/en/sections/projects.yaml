@@ -27,7 +27,7 @@ projects:
   timeline: "Mar 2026 - Present"
   repo: "https://github.com/UnseenUniverse/static-sentry"
   url: "https://github.com/UnseenUniverse/static-sentry"
-  summary: StaticSentry is a Python-based cybersecurity tool that scans directories for sensitive data using regex and keyword analysis. It scans files in a selected directory to detect potentially sensitive or suspicious content using keyword matching and regex-based analysis. The tool identifies hardcoded credentials such as passwords, API keys, tokens, and other secrets, and classifies findings by severity. It also includes structured output, duplicate reduction, and real-time progress tracking to improve usability.
+  summary: StaticSentry is a Python-based cybersecurity tool that scans directories for sensitive data using regex and keyword analysis. The tool identifies hardcoded credentials such as passwords, API keys, tokens, and other secrets, and classifies findings by severity. It also includes structured output, duplicate reduction, and real-time progress tracking to improve usability.
   tags: ["academic","security","python","tooling"]
 
 - name: ReRun
