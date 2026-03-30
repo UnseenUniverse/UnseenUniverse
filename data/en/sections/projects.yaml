@@ -22,7 +22,7 @@ buttons:
 # your projects
 projects:
 - name: StaticSentry
-  #logo: /images/sections/projects/tensorflow.png
+  logo: https://github.com/UnseenUniverse/static-sentry/blob/main/docs/img/StaticSentry-Logo.png
   role: Developer
   timeline: "Mar 2026 - Present"
   repo: "https://github.com/UnseenUniverse/static-sentry"
