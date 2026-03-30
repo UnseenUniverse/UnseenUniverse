@@ -21,11 +21,20 @@ buttons:
 
 # your projects
 projects:
+- name: StaticSentry
+  logo: assets/images/sections/projects/StaticSentry-Logo.png
+  role: Developer
+  timeline: "Mar 2026 - Present"
+  repo: "https://github.com/UnseenUniverse/static-sentry"
+  url: "https://github.com/UnseenUniverse/static-sentry"
+  summary: StaticSentry is a Python-based cybersecurity tool that scans directories for sensitive data using regex and keyword analysis. The tool identifies hardcoded credentials such as passwords, API keys, tokens, and other secrets, and classifies findings by severity. It also includes structured output, duplicate reduction, and real-time progress tracking to improve usability.
+  tags: ["academic","security","python","tooling"]
+
 - name: ReRun
   #logo: /images/sections/projects/tensorflow.png
   role: UI/UX Programmer & Designer
   timeline: "Oct 2023"
-  #repo:
+  repo: "https://github.com/GameJamFall2023/GameJamFall2023"
   url: "https://unseenverse.itch.io/rerun"
   summary: Watch out for the monster from your TV! Collect the 4 batteries to recharge your remote control and defeat the monster. The themes for this Game Jam were Distortion & Stuck In A Loop. A Retro Runner Game with various inspirations from CRT TV’s to Grandma’s House! ReRun was created by a group of 7 Game Developer students over the course of 48 hours during UW Stout's IGDA Fall 2023 Game Jam. Feel free to click the link to play the game in browser! Winner of UW Stout's IGDA Fall 2023 Game Jam in the categories of Best Use of Theme & Best Visuals!
   tags: ["hobby", "game-dev","godot"]
@@ -43,7 +52,7 @@ projects:
   #logo: /images/sections/projects/tensorflow.png
   role: Audio & UI Designer/Programmer
   timeline: "Feb 2023"
-  #repo:
+  repo: "https://github.com/Gulfbones/JAM2023"
   url: "https://gulfbones.itch.io/fish-feast"
   summary: Fish Feast was created by a group of 8 Game Developer students over the course of 48 hours during UW Stout's 2023 Game Jam hosted by the on campus IGDA club. In Fish Feast you play as a fish where your goal is to eat other fish and items in the ocean to eventually get big enough to eat the whole map! Fish Feast won the Most Innovative award. Feel free to click the link to play the game in browser!
   tags: ["hobby", "game-dev","unity"]
