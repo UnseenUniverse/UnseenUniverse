@@ -21,6 +21,15 @@ buttons:
 
 # your projects
 projects:
+- name: StaticSentry
+  #logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Mar 2026 - Present"
+  repo: "https://github.com/UnseenUniverse/static-sentry"
+  url: "https://github.com/UnseenUniverse/static-sentry"
+  summary: StaticSentry is a Python-based cybersecurity scanning tool with a modern GUI built using CustomTkinter. It scans files in a selected directory to detect potentially sensitive or suspicious content using keyword matching and regex-based analysis. The tool identifies hardcoded credentials such as passwords, API keys, tokens, and other secrets, and classifies findings by severity. It also includes structured output, duplicate reduction, and real-time progress tracking to improve usability.
+  tags: ["academic","security","python","tooling"]
+
 - name: ReRun
   #logo: /images/sections/projects/tensorflow.png
   role: UI/UX Programmer & Designer
